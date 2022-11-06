@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ManagmentFinaliOS
-//
-//  Created by Stainley A Lebron R on 2022-11-05.
-//
 
 import UIKit
 

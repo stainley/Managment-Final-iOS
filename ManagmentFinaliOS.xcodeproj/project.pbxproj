@@ -13,6 +13,26 @@
 		AD56A6952916DE7500CC2EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD56A6932916DE7500CC2EDC /* Main.storyboard */; };
 		AD56A6972916DE7600CC2EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD56A6962916DE7600CC2EDC /* Assets.xcassets */; };
 		AD56A69A2916DE7600CC2EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD56A6982916DE7600CC2EDC /* LaunchScreen.storyboard */; };
+		AD56A6A32917082900CC2EDC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6A22917082900CC2EDC /* RegistrationViewController.swift */; };
+		AD56A6A72917305000CC2EDC /* EmployeeTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6A62917305000CC2EDC /* EmployeeTableViewExtension.swift */; };
+		AD56A6AA2917319000CC2EDC /* Permanent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6A92917319000CC2EDC /* Permanent.swift */; };
+		AD56A6AC291731B000CC2EDC /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6AB291731B000CC2EDC /* Contract.swift */; };
+		AD56A6AE291731C800CC2EDC /* Temporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6AD291731C800CC2EDC /* Temporary.swift */; };
+		AD56A6B1291731F000CC2EDC /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6B0291731F000CC2EDC /* Employee.swift */; };
+		AD56A6B32917321500CC2EDC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6B22917321500CC2EDC /* Manager.swift */; };
+		AD56A6B52917323100CC2EDC /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6B42917323100CC2EDC /* Tester.swift */; };
+		AD56A6B72917325600CC2EDC /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6B62917325600CC2EDC /* Programmer.swift */; };
+		AD56A6BA2917328600CC2EDC /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6B92917328600CC2EDC /* Vehicle.swift */; };
+		AD56A6BC291732A600CC2EDC /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6BB291732A600CC2EDC /* Motorcycle.swift */; };
+		AD56A6BE291732BE00CC2EDC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6BD291732BE00CC2EDC /* Car.swift */; };
+		AD56A6C1291732F700CC2EDC /* EmployeePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6C0291732F700CC2EDC /* EmployeePrint.swift */; };
+		AD56A6C32917331E00CC2EDC /* ContractReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6C22917331E00CC2EDC /* ContractReport.swift */; };
+		AD56A6C82917337600CC2EDC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6C72917337600CC2EDC /* Utility.swift */; };
+		AD56A6CB291734A300CC2EDC /* EmployeeCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6C9291734A300CC2EDC /* EmployeeCustomTableViewCell.swift */; };
+		AD56A6CC291734A300CC2EDC /* EmployeeCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD56A6CA291734A300CC2EDC /* EmployeeCustomTableViewCell.xib */; };
+		AD56A6CE2917396100CC2EDC /* EmployeeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6CD2917396100CC2EDC /* EmployeeDataSource.swift */; };
+		AD56A6D12917514E00CC2EDC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6D02917514E00CC2EDC /* ResultViewController.swift */; };
+		AD56A6D32917771900CC2EDC /* RegistrationViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A6D22917771900CC2EDC /* RegistrationViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		AD56A6962916DE7600CC2EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD56A6992916DE7600CC2EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD56A69B2916DE7600CC2EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD56A6A22917082900CC2EDC /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		AD56A6A62917305000CC2EDC /* EmployeeTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewExtension.swift; sourceTree = "<group>"; };
+		AD56A6A92917319000CC2EDC /* Permanent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permanent.swift; sourceTree = "<group>"; };
+		AD56A6AB291731B000CC2EDC /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		AD56A6AD291731C800CC2EDC /* Temporary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temporary.swift; sourceTree = "<group>"; };
+		AD56A6B0291731F000CC2EDC /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		AD56A6B22917321500CC2EDC /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		AD56A6B42917323100CC2EDC /* Tester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tester.swift; sourceTree = "<group>"; };
+		AD56A6B62917325600CC2EDC /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		AD56A6B92917328600CC2EDC /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		AD56A6BB291732A600CC2EDC /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		AD56A6BD291732BE00CC2EDC /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		AD56A6C0291732F700CC2EDC /* EmployeePrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePrint.swift; sourceTree = "<group>"; };
+		AD56A6C22917331E00CC2EDC /* ContractReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractReport.swift; sourceTree = "<group>"; };
+		AD56A6C72917337600CC2EDC /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AD56A6C9291734A300CC2EDC /* EmployeeCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCustomTableViewCell.swift; sourceTree = "<group>"; };
+		AD56A6CA291734A300CC2EDC /* EmployeeCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCustomTableViewCell.xib; sourceTree = "<group>"; };
+		AD56A6CD2917396100CC2EDC /* EmployeeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataSource.swift; sourceTree = "<group>"; };
+		AD56A6D02917514E00CC2EDC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AD56A6D22917771900CC2EDC /* RegistrationViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 		AD56A68C2916DE7500CC2EDC /* ManagmentFinaliOS */ = {
 			isa = PBXGroup;
 			children = (
+				AD56A6A429172C0100CC2EDC /* Model */,
+				AD56A6A12917081A00CC2EDC /* View */,
 				AD56A68D2916DE7500CC2EDC /* AppDelegate.swift */,
 				AD56A68F2916DE7500CC2EDC /* SceneDelegate.swift */,
 				AD56A6912916DE7500CC2EDC /* ViewController.swift */,
@@ -65,6 +107,96 @@
 				AD56A69B2916DE7600CC2EDC /* Info.plist */,
 			);
 			path = ManagmentFinaliOS;
+			sourceTree = "<group>";
+		};
+		AD56A6A12917081A00CC2EDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6CF2917513E00CC2EDC /* Result */,
+				AD56A6A52917303600CC2EDC /* Employee */,
+				AD56A6A22917082900CC2EDC /* RegistrationViewController.swift */,
+				AD56A6D22917771900CC2EDC /* RegistrationViewExtension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD56A6A429172C0100CC2EDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6C62917336900CC2EDC /* Util */,
+				AD56A6BF291732D500CC2EDC /* Extension */,
+				AD56A6B82917327600CC2EDC /* Vehicle */,
+				AD56A6AF291731E300CC2EDC /* Position */,
+				AD56A6A82917317E00CC2EDC /* Status */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD56A6A52917303600CC2EDC /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6A62917305000CC2EDC /* EmployeeTableViewExtension.swift */,
+				AD56A6C9291734A300CC2EDC /* EmployeeCustomTableViewCell.swift */,
+				AD56A6CA291734A300CC2EDC /* EmployeeCustomTableViewCell.xib */,
+				AD56A6CD2917396100CC2EDC /* EmployeeDataSource.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		AD56A6A82917317E00CC2EDC /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6A92917319000CC2EDC /* Permanent.swift */,
+				AD56A6AB291731B000CC2EDC /* Contract.swift */,
+				AD56A6AD291731C800CC2EDC /* Temporary.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		AD56A6AF291731E300CC2EDC /* Position */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6B0291731F000CC2EDC /* Employee.swift */,
+				AD56A6B22917321500CC2EDC /* Manager.swift */,
+				AD56A6B42917323100CC2EDC /* Tester.swift */,
+				AD56A6B62917325600CC2EDC /* Programmer.swift */,
+			);
+			path = Position;
+			sourceTree = "<group>";
+		};
+		AD56A6B82917327600CC2EDC /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6B92917328600CC2EDC /* Vehicle.swift */,
+				AD56A6BB291732A600CC2EDC /* Motorcycle.swift */,
+				AD56A6BD291732BE00CC2EDC /* Car.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		AD56A6BF291732D500CC2EDC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6C0291732F700CC2EDC /* EmployeePrint.swift */,
+				AD56A6C22917331E00CC2EDC /* ContractReport.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AD56A6C62917336900CC2EDC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6C72917337600CC2EDC /* Utility.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AD56A6CF2917513E00CC2EDC /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				AD56A6D02917514E00CC2EDC /* ResultViewController.swift */,
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +259,7 @@
 			files = (
 				AD56A69A2916DE7600CC2EDC /* LaunchScreen.storyboard in Resources */,
 				AD56A6972916DE7600CC2EDC /* Assets.xcassets in Resources */,
+				AD56A6CC291734A300CC2EDC /* EmployeeCustomTableViewCell.xib in Resources */,
 				AD56A6952916DE7500CC2EDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +271,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD56A6CB291734A300CC2EDC /* EmployeeCustomTableViewCell.swift in Sources */,
+				AD56A6BA2917328600CC2EDC /* Vehicle.swift in Sources */,
+				AD56A6D12917514E00CC2EDC /* ResultViewController.swift in Sources */,
 				AD56A6922916DE7500CC2EDC /* ViewController.swift in Sources */,
+				AD56A6BE291732BE00CC2EDC /* Car.swift in Sources */,
+				AD56A6B1291731F000CC2EDC /* Employee.swift in Sources */,
 				AD56A68E2916DE7500CC2EDC /* AppDelegate.swift in Sources */,
+				AD56A6C82917337600CC2EDC /* Utility.swift in Sources */,
+				AD56A6AA2917319000CC2EDC /* Permanent.swift in Sources */,
+				AD56A6A32917082900CC2EDC /* RegistrationViewController.swift in Sources */,
+				AD56A6BC291732A600CC2EDC /* Motorcycle.swift in Sources */,
+				AD56A6CE2917396100CC2EDC /* EmployeeDataSource.swift in Sources */,
 				AD56A6902916DE7500CC2EDC /* SceneDelegate.swift in Sources */,
+				AD56A6D32917771900CC2EDC /* RegistrationViewExtension.swift in Sources */,
+				AD56A6C32917331E00CC2EDC /* ContractReport.swift in Sources */,
+				AD56A6AE291731C800CC2EDC /* Temporary.swift in Sources */,
+				AD56A6B72917325600CC2EDC /* Programmer.swift in Sources */,
+				AD56A6C1291732F700CC2EDC /* EmployeePrint.swift in Sources */,
+				AD56A6AC291731B000CC2EDC /* Contract.swift in Sources */,
+				AD56A6A72917305000CC2EDC /* EmployeeTableViewExtension.swift in Sources */,
+				AD56A6B52917323100CC2EDC /* Tester.swift in Sources */,
+				AD56A6B32917321500CC2EDC /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +439,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FEJDM95844;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ManagmentFinaliOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FEJDM95844;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ManagmentFinaliOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
