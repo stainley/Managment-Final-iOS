@@ -45,6 +45,7 @@ class RegistrationViewController: UIViewController, UIPickerViewDelegate, UIPick
     @IBOutlet weak var typeVehicleOption: UISegmentedControl!
     
     @IBAction func typeVehicleOption(_ sender: UISegmentedControl) {
+        
         let position = sender.selectedSegmentIndex
         
         switch position {
@@ -133,46 +134,8 @@ class RegistrationViewController: UIViewController, UIPickerViewDelegate, UIPick
         
         onEmployeeDataDelegate?.onEmployeeDataDelegate(employee: employee)
         self.dismiss(animated: true)
-    }
-    
-    /**
-    * If they're empty field show an alert
-    */
-    private func validateEmptyField() {
-        
-        let messageAction = UIAlertController(title: "Empty Field", message: "Please fill are fields", preferredStyle: .alert)
-        let alertCancel = UIAlertAction(title: "Cancel", style: .cancel)
-        messageAction.addAction(alertCancel)
-        self.present(messageAction, animated: true)
-    }
-        
-
-    func registerVehicle(typeVehicle: TypeVehicle) {
-        switch typeVehicle {
-            case .CAR:
-                vehicle = Car(make: vehicleModel, plate: plateNumberTextField.text ?? "", color: "", category: vehicleCategory, gear: "", type: "", colour: vehicleColor as Any)
-            case .MOTORCYCLE:
-                vehicle = Motorcycle(make: vehicleModel, plate: plateNumberTextField.text ?? "", color: "", category: vehicleCategory, sidecar: hasSideCar, colour: vehicleColor as Any)
-        }
-    }
-    
-    func registerEmployee(typeEmployee: TypeEmployee) {
-        
-        switch typeEmployee {
-            case .MANAGER:
-                employee = Manager(id: employeeId, name: fullName, birthYear: birthYear, nbClients: numbersOfExtra, rates: occupationRate, monthlyIncome: monthlySalary, employeeVehicle: vehicle)
-            case .PROGRAMMER:
-                employee = Programmer(id: employeeId, name: fullName, birthYear: birthYear, rate: occupationRate, nbProjects: numbersOfExtra, monthlyIncomem: monthlySalary, employeeVehicle: vehicle)
-            case .TESTER:
-                employee = Tester(id: employeeId, name: fullName, birthYear: birthYear, nbBugs: numbersOfExtra, monthlyIncome: monthlySalary, rate: occupationRate, employeeVehicle: vehicle)
-        }
-    }
-    
-    
-    func closeView() {
-        self.dismiss(animated: true)
-    }
-    
+    }    
+  
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return employeeType.count
     }
@@ -180,35 +143,7 @@ class RegistrationViewController: UIViewController, UIPickerViewDelegate, UIPick
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    
-    func employeeOptionSelected() {
-        
-        if selectedEmployeeType == "Tester" {
-            employeeTypeLabel.text = "# of bugs"
-            employeeTypeTextFiled.placeholder = "number"
-            employeeTypeLabel.isHidden = false
-            employeeTypeTextFiled.isHidden = false
-            
-        } else if selectedEmployeeType == "Manager" {
-            employeeTypeLabel.text = "# of clients"
-            employeeTypeTextFiled.placeholder = "number"
-            employeeTypeLabel.isHidden = false
-            employeeTypeTextFiled.isHidden = false
-
-        } else if selectedEmployeeType == "Programmer" {
-            employeeTypeLabel.text = "# of projects"
-            employeeTypeTextFiled.placeholder = "number"
-            employeeTypeLabel.isHidden = false
-            employeeTypeTextFiled.isHidden = false
-            
-        } else {
-            employeeTypeLabel.text = ""
-            employeeTypeTextFiled.isHidden = true
-            employeeTypeTextFiled.placeholder = ""
-            employeeTypeLabel.isHidden = true
-        }
-    }
-    
+      
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedEmployeeType = employeeType[row]
         employeeOptionSelected()
@@ -222,8 +157,6 @@ class RegistrationViewController: UIViewController, UIPickerViewDelegate, UIPick
         } else {
             print("Invalid Option")
         }
-        
-        print(selectedEmployeeType!)
     }
   
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {

@@ -27,7 +27,6 @@ extension Employee: CustomStringConvertible {
         
         if let manag = self as? Manager {
             isPossitionOf = true
-            //occupationMessage = "He/She travelled \(manag.getNbTravelDays()) days and has brought \(manag.getNbClients()) new clients."
             occupationMessage = " has brought \(manag.getNbClients()) new clients."
         } else if let prog = self as? Programmer {
             isPossitionOf = true
@@ -35,8 +34,7 @@ extension Employee: CustomStringConvertible {
         } else if let test = self as? Tester {
             isPossitionOf = true
             occupationMessage = " has corrected \(test.getNbBugs()) bugs."
-        }
-        
+        }        
         
         var yearlyIncome: Double = 0
         
@@ -51,14 +49,15 @@ extension Employee: CustomStringConvertible {
         } else {
             yearlyIncome = annualIncome()
         }
-        //- color: \(vehicle != nil ? vehicle.getColor() : "")
-        let report: String = """
+
+       let report: String = """
         Name: \(getName()), a \(Self.self)
         Age: \(getAge())
         Employee has a \(typeOfVehicle)
             - Model: \(vehicle != nil ? vehicle.getMake() : "")
             - Plate: \(vehicle != nil ? vehicle.getPlate() : "")
             - category: \(vehicle != nil ? vehicle.getCategory() : "")
+            \(typeOfVehicle == "car" ? "- type: \(type)"  : "- \(sidecard)")
             Occupation rate: \(getRate())
             Annual income: $\(yearlyIncome)
             He/She \(isPossitionOf == true ? occupationMessage : "")
@@ -66,10 +65,5 @@ extension Employee: CustomStringConvertible {
         
         return report
     }
-    
-    /**
-     \(typeOfVehicle == "car" ? "- gear: \(gear)\n\t- type: \(type)"  : "- \(sidecard)")
-     \(getName()) has an Occupation rate: \(getRate())% \(isPossitionOf == true ? occupationMessage : "")
-     His/Her estimated annual income is \(yearlyIncome)
-     */
+
 }

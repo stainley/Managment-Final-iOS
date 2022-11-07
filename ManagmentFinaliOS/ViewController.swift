@@ -13,28 +13,35 @@ class ViewController: UIViewController, EmployeeDataSource {
     var isFiltered = false
   
     var colorV: UIColor!
-    
-    
+        
     @IBAction func findEmployeeRecord(_ sender: UIButton) {
         
         guard let findText = findTextField.text  else {
             return
         }
         
+        // Load all records searching Empty or 0
         if findText == "0" || findText == "" {
+            isFiltered = false
             employeeTableView.reloadData()
             return
         }
         
         let findById = Int(findText)
-
-        employeeFilter = employees.filter( {
+        employeeFilter = employees.filter({
             let found = $0.getById() == findById
-            isFiltered = found
-            employeeTableView.reloadData()
-            return isFiltered
+            if found {
+                isFiltered = true
+            }
+            return found
         })
-        
+     
+        employeeTableView.reloadData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        employeeTableView.reloadData()
     }
     
     func onEmployeeDataDelegate(employee: Employee) {
@@ -59,7 +66,6 @@ class ViewController: UIViewController, EmployeeDataSource {
         employeeTableView.dataSource = self
         employeeTableView.delegate = self
         employeeTableView.reloadData()
-        //employees = employeeFilter
     }
       
     func registerCustomTableCell() {
